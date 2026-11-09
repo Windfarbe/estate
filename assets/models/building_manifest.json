@@ -1,0 +1,1885 @@
+{
+  "schemaVersion": 4,
+  "project": "wasteland-manor-card",
+  "gridSize": 48,
+  "cellUnitMeters": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 2.4
+  },
+  "repository": "https://github.com/Windfarbe/estate",
+  "cdnBase": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/",
+  "rawBase": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/",
+  "count": 48,
+  "models": [
+    {
+      "id": "terrain_grass",
+      "file": "terrain_grass.glb",
+      "bytes": 80524,
+      "snapType": "tile",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.05,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.5,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.5,
+          0.0783
+        ],
+        "size": [
+          1.0,
+          1.0,
+          0.0783
+        ],
+        "vertexCount": 96,
+        "polyCount": 90
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "翠绿生态草皮格",
+      "category": "地形/生态",
+      "cost": {
+        "净水": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/terrain_grass.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/terrain_grass.glb"
+    },
+    {
+      "id": "terrain_sand",
+      "file": "terrain_sand.glb",
+      "bytes": 52048,
+      "snapType": "tile",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.05,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.5,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.5,
+          0.067
+        ],
+        "size": [
+          1.0,
+          1.0,
+          0.067
+        ],
+        "vertexCount": 84,
+        "polyCount": 90
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "暖金沙土地皮格",
+      "category": "地形/生态",
+      "cost": {
+        "混凝土": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/terrain_sand.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/terrain_sand.glb"
+    },
+    {
+      "id": "terrain_water",
+      "file": "terrain_water.glb",
+      "bytes": 122708,
+      "snapType": "tile",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.24,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.5,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.5,
+          0.27
+        ],
+        "size": [
+          1.0,
+          1.0,
+          0.27
+        ],
+        "vertexCount": 472,
+        "polyCount": 454
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "澄澈景观水池格",
+      "category": "地形/生态",
+      "cost": {
+        "净水": 2,
+        "混凝土": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/terrain_water.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/terrain_water.glb"
+    },
+    {
+      "id": "env_tree_oak",
+      "file": "env_tree_oak.glb",
+      "bytes": 247968,
+      "snapType": "facility",
+      "cells": [
+        2,
+        2
+      ],
+      "height": 3.02,
+      "bbox": {
+        "min": [
+          -0.9406,
+          -0.9295,
+          0.0
+        ],
+        "max": [
+          0.9406,
+          0.9295,
+          2.9998
+        ],
+        "size": [
+          1.8812,
+          1.8591,
+          2.9998
+        ],
+        "vertexCount": 1680,
+        "polyCount": 1972
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "绿洲分叉大乔木",
+      "category": "地形/生态",
+      "cost": {
+        "木材": 3,
+        "净水": 4
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/env_tree_oak.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/env_tree_oak.glb"
+    },
+    {
+      "id": "env_tree_pine",
+      "file": "env_tree_pine.glb",
+      "bytes": 141204,
+      "snapType": "facility",
+      "cells": [
+        2,
+        2
+      ],
+      "height": 3.0,
+      "bbox": {
+        "min": [
+          -0.8911,
+          -0.9512,
+          0.0
+        ],
+        "max": [
+          0.8911,
+          0.9512,
+          2.9895
+        ],
+        "size": [
+          1.7821,
+          1.9024,
+          2.9895
+        ],
+        "vertexCount": 566,
+        "polyCount": 412
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "高精层叠针叶松",
+      "category": "地形/生态",
+      "cost": {
+        "木材": 3,
+        "净水": 3
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/env_tree_pine.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/env_tree_pine.glb"
+    },
+    {
+      "id": "env_rock_bush",
+      "file": "env_rock_bush.glb",
+      "bytes": 120348,
+      "snapType": "facility",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.44,
+      "bbox": {
+        "min": [
+          -0.4278,
+          -0.3876,
+          0.0
+        ],
+        "max": [
+          0.4278,
+          0.3876,
+          0.4586
+        ],
+        "size": [
+          0.8556,
+          0.7752,
+          0.4586
+        ],
+        "vertexCount": 306,
+        "polyCount": 460
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "棱角景石与花丛",
+      "category": "地形/生态",
+      "cost": {
+        "木材": 1,
+        "混凝土": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/env_rock_bush.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/env_rock_bush.glb"
+    },
+    {
+      "id": "env_fountain",
+      "file": "env_fountain.glb",
+      "bytes": 328724,
+      "snapType": "facility",
+      "cells": [
+        2,
+        2
+      ],
+      "height": 1.98,
+      "bbox": {
+        "min": [
+          -0.938,
+          -0.938,
+          0.0
+        ],
+        "max": [
+          0.938,
+          0.938,
+          2.0
+        ],
+        "size": [
+          1.8761,
+          1.8761,
+          2.0
+        ],
+        "vertexCount": 2330,
+        "polyCount": 2204
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "双层石雕景观喷泉",
+      "category": "地形/生态",
+      "cost": {
+        "混凝土": 6,
+        "净水": 8
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/env_fountain.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/env_fountain.glb"
+    },
+    {
+      "id": "found_concrete",
+      "file": "found_concrete.glb",
+      "bytes": 127924,
+      "snapType": "tile",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.24,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.5,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.5,
+          0.24
+        ],
+        "size": [
+          1.0,
+          1.0,
+          0.24
+        ],
+        "vertexCount": 416,
+        "polyCount": 386
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "混凝土地基",
+      "category": "地基/地面",
+      "cost": {
+        "混凝土": 2,
+        "废金属": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/found_concrete.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/found_concrete.glb"
+    },
+    {
+      "id": "floor_wood",
+      "file": "floor_wood.glb",
+      "bytes": 161296,
+      "snapType": "floor",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.09,
+      "bbox": {
+        "min": [
+          -0.495,
+          -0.493,
+          0.0
+        ],
+        "max": [
+          0.495,
+          0.493,
+          0.09
+        ],
+        "size": [
+          0.99,
+          0.986,
+          0.09
+        ],
+        "vertexCount": 864,
+        "polyCount": 798
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "废木拼接地板",
+      "category": "地基/地面",
+      "cost": {
+        "木材": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/floor_wood.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/floor_wood.glb"
+    },
+    {
+      "id": "floor_metal",
+      "file": "floor_metal.glb",
+      "bytes": 194984,
+      "snapType": "floor",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.095,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.5,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.5,
+          0.095
+        ],
+        "size": [
+          1.0,
+          1.0,
+          0.095
+        ],
+        "vertexCount": 1248,
+        "polyCount": 1170
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "防辐射钢板地面",
+      "category": "地基/地面",
+      "cost": {
+        "废金属": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/floor_metal.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/floor_metal.glb"
+    },
+    {
+      "id": "plot_soil",
+      "file": "plot_soil.glb",
+      "bytes": 331500,
+      "snapType": "tile",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.28,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.5,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.5,
+          0.265
+        ],
+        "size": [
+          1.0,
+          1.0,
+          0.265
+        ],
+        "vertexCount": 2056,
+        "polyCount": 1996
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "改良生态耕地格",
+      "category": "地基/地面",
+      "cost": {
+        "木材": 2,
+        "净水": 3
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/plot_soil.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/plot_soil.glb"
+    },
+    {
+      "id": "road_stone",
+      "file": "road_stone.glb",
+      "bytes": 74096,
+      "snapType": "floor",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.09,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.5,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.5,
+          0.085
+        ],
+        "size": [
+          1.0,
+          1.0,
+          0.085
+        ],
+        "vertexCount": 288,
+        "polyCount": 270
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "庭院石板步道",
+      "category": "地基/地面",
+      "cost": {
+        "混凝土": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/road_stone.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/road_stone.glb"
+    },
+    {
+      "id": "wall_corrugated",
+      "file": "wall_corrugated.glb",
+      "bytes": 187044,
+      "snapType": "wall",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 2.4,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.0925,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.0925,
+          2.4
+        ],
+        "size": [
+          1.0,
+          0.185,
+          2.4
+        ],
+        "vertexCount": 1020,
+        "polyCount": 956
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "波纹铁皮墙",
+      "category": "墙体/门窗",
+      "cost": {
+        "废金属": 2,
+        "木材": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/wall_corrugated.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/wall_corrugated.glb"
+    },
+    {
+      "id": "wall_concrete",
+      "file": "wall_concrete.glb",
+      "bytes": 209356,
+      "snapType": "wall",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 2.4,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.11,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.11,
+          2.4
+        ],
+        "size": [
+          1.0,
+          0.22,
+          2.4
+        ],
+        "vertexCount": 800,
+        "polyCount": 750
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "加固混凝土墙",
+      "category": "墙体/门窗",
+      "cost": {
+        "混凝土": 3,
+        "废金属": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/wall_concrete.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/wall_concrete.glb"
+    },
+    {
+      "id": "wall_brick",
+      "file": "wall_brick.glb",
+      "bytes": 148952,
+      "snapType": "wall",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 2.4,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.105,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.105,
+          2.4
+        ],
+        "size": [
+          1.0,
+          0.21,
+          2.4
+        ],
+        "vertexCount": 864,
+        "polyCount": 810
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "复古红砖墙",
+      "category": "墙体/门窗",
+      "cost": {
+        "混凝土": 3
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/wall_brick.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/wall_brick.glb"
+    },
+    {
+      "id": "wall_window",
+      "file": "wall_window.glb",
+      "bytes": 206508,
+      "snapType": "wall",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 2.4,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.12,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.12,
+          2.4
+        ],
+        "size": [
+          1.0,
+          0.24,
+          2.4
+        ],
+        "vertexCount": 632,
+        "polyCount": 594
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "防爆观察窗墙",
+      "category": "墙体/门窗",
+      "cost": {
+        "混凝土": 2,
+        "废金属": 2,
+        "电子元件": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/wall_window.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/wall_window.glb"
+    },
+    {
+      "id": "wall_embrasure",
+      "file": "wall_embrasure.glb",
+      "bytes": 165376,
+      "snapType": "wall",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 2.4,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.137,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.137,
+          2.4
+        ],
+        "size": [
+          1.0,
+          0.2741,
+          2.4
+        ],
+        "vertexCount": 480,
+        "polyCount": 446
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "射击孔防卫墙",
+      "category": "墙体/门窗",
+      "cost": {
+        "混凝土": 3,
+        "废金属": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/wall_embrasure.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/wall_embrasure.glb"
+    },
+    {
+      "id": "wall_half",
+      "file": "wall_half.glb",
+      "bytes": 98832,
+      "snapType": "wall",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 1.05,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.12,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.12,
+          1.045
+        ],
+        "size": [
+          1.0,
+          0.24,
+          1.045
+        ],
+        "vertexCount": 192,
+        "polyCount": 180
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "半高掩体胸墙",
+      "category": "墙体/门窗",
+      "cost": {
+        "混凝土": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/wall_half.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/wall_half.glb"
+    },
+    {
+      "id": "pillar_steel",
+      "file": "pillar_steel.glb",
+      "bytes": 139348,
+      "snapType": "facility",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 2.4,
+      "bbox": {
+        "min": [
+          -0.18,
+          -0.18,
+          0.0
+        ],
+        "max": [
+          0.18,
+          0.18,
+          2.4
+        ],
+        "size": [
+          0.36,
+          0.36,
+          2.4
+        ],
+        "vertexCount": 288,
+        "polyCount": 270
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "重型钢制立柱",
+      "category": "墙体/门窗",
+      "cost": {
+        "废金属": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/pillar_steel.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/pillar_steel.glb"
+    },
+    {
+      "id": "fence_wire",
+      "file": "fence_wire.glb",
+      "bytes": 244968,
+      "snapType": "wall",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 2.15,
+      "bbox": {
+        "min": [
+          -0.6901,
+          -0.124,
+          0.0
+        ],
+        "max": [
+          0.6901,
+          0.124,
+          2.164
+        ],
+        "size": [
+          1.3803,
+          0.248,
+          2.164
+        ],
+        "vertexCount": 1656,
+        "polyCount": 1598
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "铁丝网防卫围栏",
+      "category": "墙体/门窗",
+      "cost": {
+        "废金属": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/fence_wire.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/fence_wire.glb"
+    },
+    {
+      "id": "fence_ornate",
+      "file": "fence_ornate.glb",
+      "bytes": 157460,
+      "snapType": "wall",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 1.46,
+      "bbox": {
+        "min": [
+          -0.505,
+          -0.1,
+          0.0
+        ],
+        "max": [
+          0.505,
+          0.1,
+          1.48
+        ],
+        "size": [
+          1.01,
+          0.2,
+          1.48
+        ],
+        "vertexCount": 1102,
+        "polyCount": 1112
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "欧式雕花铁艺护栏",
+      "category": "墙体/门窗",
+      "cost": {
+        "废金属": 2,
+        "混凝土": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/fence_ornate.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/fence_ornate.glb"
+    },
+    {
+      "id": "door_airlock",
+      "file": "door_airlock.glb",
+      "bytes": 227616,
+      "snapType": "wall",
+      "cells": [
+        2,
+        1
+      ],
+      "height": 2.4,
+      "bbox": {
+        "min": [
+          -1.0,
+          -0.18,
+          0.0
+        ],
+        "max": [
+          1.0,
+          0.18,
+          2.4
+        ],
+        "size": [
+          2.0,
+          0.36,
+          2.4
+        ],
+        "vertexCount": 1254,
+        "polyCount": 1206
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "双开气密装甲门",
+      "category": "墙体/门窗",
+      "cost": {
+        "废金属": 6,
+        "电子元件": 2,
+        "高级合金": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/door_airlock.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/door_airlock.glb"
+    },
+    {
+      "id": "wall_arch_gate",
+      "file": "wall_arch_gate.glb",
+      "bytes": 235724,
+      "snapType": "wall",
+      "cells": [
+        2,
+        1
+      ],
+      "height": 2.4,
+      "bbox": {
+        "min": [
+          -1.02,
+          -0.23,
+          0.0
+        ],
+        "max": [
+          1.02,
+          0.23,
+          2.4
+        ],
+        "size": [
+          2.04,
+          0.46,
+          2.4
+        ],
+        "vertexCount": 1344,
+        "polyCount": 1308
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "庄园迎宾灯柱拱门",
+      "category": "墙体/门窗",
+      "cost": {
+        "混凝土": 4,
+        "废金属": 4
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/wall_arch_gate.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/wall_arch_gate.glb"
+    },
+    {
+      "id": "roof_sloped_tin",
+      "file": "roof_sloped_tin.glb",
+      "bytes": 130228,
+      "snapType": "roof",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.52,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.4985,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.4985,
+          0.52
+        ],
+        "size": [
+          1.0,
+          0.997,
+          0.52
+        ],
+        "vertexCount": 384,
+        "polyCount": 360
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "倾斜铁皮屋顶",
+      "category": "屋顶/楼梯",
+      "cost": {
+        "废金属": 2,
+        "木材": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/roof_sloped_tin.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/roof_sloped_tin.glb"
+    },
+    {
+      "id": "roof_flat_steel",
+      "file": "roof_flat_steel.glb",
+      "bytes": 111472,
+      "snapType": "roof",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.21,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.5,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.5,
+          0.21
+        ],
+        "size": [
+          1.0,
+          1.0,
+          0.21
+        ],
+        "vertexCount": 356,
+        "polyCount": 334
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "钢架平顶",
+      "category": "屋顶/楼梯",
+      "cost": {
+        "废金属": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/roof_flat_steel.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/roof_flat_steel.glb"
+    },
+    {
+      "id": "roof_glass",
+      "file": "roof_glass.glb",
+      "bytes": 62276,
+      "snapType": "roof",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.12,
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.5,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.5,
+          0.12
+        ],
+        "size": [
+          1.0,
+          1.0,
+          0.12
+        ],
+        "vertexCount": 224,
+        "polyCount": 210
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "温室透明采光顶",
+      "category": "屋顶/楼梯",
+      "cost": {
+        "废金属": 2,
+        "电子元件": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/roof_glass.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/roof_glass.glb"
+    },
+    {
+      "id": "roof_solar",
+      "file": "roof_solar.glb",
+      "bytes": 89772,
+      "snapType": "roof",
+      "cells": [
+        2,
+        2
+      ],
+      "height": 0.54,
+      "bbox": {
+        "min": [
+          -1.0,
+          -1.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          0.5161
+        ],
+        "size": [
+          2.0,
+          2.0,
+          0.5161
+        ],
+        "vertexCount": 288,
+        "polyCount": 270
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "太阳能阵列顶棚",
+      "category": "屋顶/楼梯",
+      "cost": {
+        "废金属": 4,
+        "电子元件": 4,
+        "高级合金": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/roof_solar.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/roof_solar.glb"
+    },
+    {
+      "id": "stairs_metal",
+      "file": "stairs_metal.glb",
+      "bytes": 188336,
+      "snapType": "facility",
+      "cells": [
+        1,
+        2
+      ],
+      "height": 2.4,
+      "bbox": {
+        "min": [
+          -0.47,
+          -0.985,
+          0.0
+        ],
+        "max": [
+          0.47,
+          0.985,
+          2.909
+        ],
+        "size": [
+          0.94,
+          1.97,
+          2.909
+        ],
+        "vertexCount": 1076,
+        "polyCount": 1008
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "工业钢制楼梯",
+      "category": "屋顶/楼梯",
+      "cost": {
+        "废金属": 5
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/stairs_metal.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/stairs_metal.glb"
+    },
+    {
+      "id": "fac_water_purifier",
+      "file": "fac_water_purifier.glb",
+      "bytes": 299796,
+      "snapType": "facility",
+      "cells": [
+        2,
+        2
+      ],
+      "height": 1.9,
+      "bbox": {
+        "min": [
+          -0.94,
+          -0.94,
+          0.0
+        ],
+        "max": [
+          0.94,
+          0.94,
+          1.9
+        ],
+        "size": [
+          1.88,
+          1.88,
+          1.9
+        ],
+        "vertexCount": 1932,
+        "polyCount": 1892
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "工业净水塔",
+      "category": "生产设施",
+      "cost": {
+        "废金属": 8,
+        "电子元件": 3,
+        "混凝土": 4
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/fac_water_purifier.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/fac_water_purifier.glb"
+    },
+    {
+      "id": "fac_hydroponics",
+      "file": "fac_hydroponics.glb",
+      "bytes": 339824,
+      "snapType": "facility",
+      "cells": [
+        2,
+        1
+      ],
+      "height": 1.62,
+      "bbox": {
+        "min": [
+          -0.95,
+          -0.47,
+          0.0
+        ],
+        "max": [
+          0.95,
+          0.47,
+          1.61
+        ],
+        "size": [
+          1.9,
+          0.94,
+          1.61
+        ],
+        "vertexCount": 2696,
+        "polyCount": 2640
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "水培生态种植槽",
+      "category": "生产设施",
+      "cost": {
+        "废金属": 6,
+        "电子元件": 3,
+        "净水": 8
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/fac_hydroponics.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/fac_hydroponics.glb"
+    },
+    {
+      "id": "fac_generator",
+      "file": "fac_generator.glb",
+      "bytes": 234376,
+      "snapType": "facility",
+      "cells": [
+        2,
+        2
+      ],
+      "height": 2.1,
+      "bbox": {
+        "min": [
+          -0.95,
+          -0.81,
+          0.0
+        ],
+        "max": [
+          0.95,
+          0.81,
+          2.11
+        ],
+        "size": [
+          1.9,
+          1.62,
+          2.11
+        ],
+        "vertexCount": 1552,
+        "polyCount": 1484
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "核融合柴油发电机",
+      "category": "生产设施",
+      "cost": {
+        "废金属": 10,
+        "电子元件": 5,
+        "高级合金": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/fac_generator.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/fac_generator.glb"
+    },
+    {
+      "id": "fac_workbench",
+      "file": "fac_workbench.glb",
+      "bytes": 151348,
+      "snapType": "facility",
+      "cells": [
+        2,
+        1
+      ],
+      "height": 1.8,
+      "bbox": {
+        "min": [
+          -0.96,
+          -0.47,
+          0.0
+        ],
+        "max": [
+          0.96,
+          0.47,
+          1.79
+        ],
+        "size": [
+          1.92,
+          0.94,
+          1.79
+        ],
+        "vertexCount": 384,
+        "polyCount": 360
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "机械工程维修台",
+      "category": "生产设施",
+      "cost": {
+        "木材": 5,
+        "废金属": 6,
+        "电子元件": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/fac_workbench.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/fac_workbench.glb"
+    },
+    {
+      "id": "fac_medbay",
+      "file": "fac_medbay.glb",
+      "bytes": 205844,
+      "snapType": "facility",
+      "cells": [
+        2,
+        2
+      ],
+      "height": 1.48,
+      "bbox": {
+        "min": [
+          -0.93,
+          -0.79,
+          0.0
+        ],
+        "max": [
+          0.93,
+          0.79,
+          1.465
+        ],
+        "size": [
+          1.86,
+          1.58,
+          1.465
+        ],
+        "vertexCount": 2462,
+        "polyCount": 2460
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "无菌医疗手术舱",
+      "category": "生产设施",
+      "cost": {
+        "废金属": 6,
+        "电子元件": 6,
+        "高级合金": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/fac_medbay.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/fac_medbay.glb"
+    },
+    {
+      "id": "fac_turret",
+      "file": "fac_turret.glb",
+      "bytes": 526064,
+      "snapType": "facility",
+      "cells": [
+        2,
+        2
+      ],
+      "height": 1.46,
+      "bbox": {
+        "min": [
+          -0.7184,
+          -0.9192,
+          0.0
+        ],
+        "max": [
+          0.7184,
+          0.9192,
+          1.46
+        ],
+        "size": [
+          1.4369,
+          1.8384,
+          1.46
+        ],
+        "vertexCount": 3182,
+        "polyCount": 3014
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "双联装哨戒炮塔",
+      "category": "防卫/生活",
+      "cost": {
+        "废金属": 8,
+        "电子元件": 4,
+        "高级合金": 3
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/fac_turret.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/fac_turret.glb"
+    },
+    {
+      "id": "fac_watchtower",
+      "file": "fac_watchtower.glb",
+      "bytes": 184556,
+      "snapType": "facility",
+      "cells": [
+        2,
+        2
+      ],
+      "height": 3.12,
+      "bbox": {
+        "min": [
+          -0.96,
+          -0.9904,
+          0.0
+        ],
+        "max": [
+          0.96,
+          0.9904,
+          3.4092
+        ],
+        "size": [
+          1.92,
+          1.9809,
+          3.4092
+        ],
+        "vertexCount": 640,
+        "polyCount": 600
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "高架了望警戒塔台",
+      "category": "防卫/生活",
+      "cost": {
+        "废金属": 8,
+        "木材": 4
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/fac_watchtower.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/fac_watchtower.glb"
+    },
+    {
+      "id": "furn_bunkbed",
+      "file": "furn_bunkbed.glb",
+      "bytes": 445736,
+      "snapType": "facility",
+      "cells": [
+        2,
+        1
+      ],
+      "height": 1.86,
+      "bbox": {
+        "min": [
+          -0.9209,
+          -0.4607,
+          0.0
+        ],
+        "max": [
+          0.9209,
+          0.4607,
+          1.86
+        ],
+        "size": [
+          1.8419,
+          0.9213,
+          1.86
+        ],
+        "vertexCount": 4704,
+        "polyCount": 4626
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "双层铁架宿舍床",
+      "category": "防卫/生活",
+      "cost": {
+        "废金属": 4,
+        "木材": 4
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/furn_bunkbed.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/furn_bunkbed.glb"
+    },
+    {
+      "id": "furn_bed_single",
+      "file": "furn_bed_single.glb",
+      "bytes": 245728,
+      "snapType": "facility",
+      "cells": [
+        2,
+        1
+      ],
+      "height": 0.96,
+      "bbox": {
+        "min": [
+          -0.95,
+          -0.48,
+          0.0
+        ],
+        "max": [
+          0.95,
+          0.48,
+          0.96
+        ],
+        "size": [
+          1.9,
+          0.96,
+          0.96
+        ],
+        "vertexCount": 3328,
+        "polyCount": 3332
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "领主精装软床",
+      "category": "防卫/生活",
+      "cost": {
+        "木材": 5,
+        "混凝土": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/furn_bed_single.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/furn_bed_single.glb"
+    },
+    {
+      "id": "furn_sofa",
+      "file": "furn_sofa.glb",
+      "bytes": 462956,
+      "snapType": "facility",
+      "cells": [
+        2,
+        1
+      ],
+      "height": 0.88,
+      "bbox": {
+        "min": [
+          -0.92,
+          -0.43,
+          0.0
+        ],
+        "max": [
+          0.92,
+          0.43,
+          0.9565
+        ],
+        "size": [
+          1.84,
+          0.86,
+          0.9565
+        ],
+        "vertexCount": 7376,
+        "polyCount": 7392
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "真皮双人会客沙发",
+      "category": "防卫/生活",
+      "cost": {
+        "木材": 4,
+        "混凝土": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/furn_sofa.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/furn_sofa.glb"
+    },
+    {
+      "id": "furn_bookshelf",
+      "file": "furn_bookshelf.glb",
+      "bytes": 214700,
+      "snapType": "facility",
+      "cells": [
+        2,
+        1
+      ],
+      "height": 2.12,
+      "bbox": {
+        "min": [
+          -0.95,
+          -0.23,
+          0.0
+        ],
+        "max": [
+          0.95,
+          0.23,
+          2.11
+        ],
+        "size": [
+          1.9,
+          0.46,
+          2.11
+        ],
+        "vertexCount": 992,
+        "polyCount": 930
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "复古书柜与电台架",
+      "category": "防卫/生活",
+      "cost": {
+        "木材": 5,
+        "电子元件": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/furn_bookshelf.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/furn_bookshelf.glb"
+    },
+    {
+      "id": "furn_kitchen_bar",
+      "file": "furn_kitchen_bar.glb",
+      "bytes": 354956,
+      "snapType": "facility",
+      "cells": [
+        2,
+        1
+      ],
+      "height": 1.22,
+      "bbox": {
+        "min": [
+          -0.97,
+          -0.5293,
+          0.0
+        ],
+        "max": [
+          0.97,
+          0.5293,
+          1.2
+        ],
+        "size": [
+          1.94,
+          1.0587,
+          1.2
+        ],
+        "vertexCount": 3360,
+        "polyCount": 3288
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "开放式料理吧台组",
+      "category": "防卫/生活",
+      "cost": {
+        "木材": 4,
+        "废金属": 3
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/furn_kitchen_bar.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/furn_kitchen_bar.glb"
+    },
+    {
+      "id": "furn_fireplace",
+      "file": "furn_fireplace.glb",
+      "bytes": 173136,
+      "snapType": "facility",
+      "cells": [
+        2,
+        1
+      ],
+      "height": 2.68,
+      "bbox": {
+        "min": [
+          -0.98,
+          -0.46,
+          0.0
+        ],
+        "max": [
+          0.98,
+          0.46,
+          2.69
+        ],
+        "size": [
+          1.96,
+          0.92,
+          2.69
+        ],
+        "vertexCount": 750,
+        "polyCount": 754
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "赤陶暖炉壁炉",
+      "category": "防卫/生活",
+      "cost": {
+        "混凝土": 5,
+        "木材": 3
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/furn_fireplace.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/furn_fireplace.glb"
+    },
+    {
+      "id": "furn_table",
+      "file": "furn_table.glb",
+      "bytes": 192168,
+      "snapType": "facility",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.98,
+      "bbox": {
+        "min": [
+          -0.45,
+          -0.45,
+          0.0
+        ],
+        "max": [
+          0.45,
+          0.45,
+          0.9636
+        ],
+        "size": [
+          0.9,
+          0.9,
+          0.9636
+        ],
+        "vertexCount": 996,
+        "polyCount": 936
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "原木工作餐桌",
+      "category": "防卫/生活",
+      "cost": {
+        "木材": 3
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/furn_table.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/furn_table.glb"
+    },
+    {
+      "id": "furn_patio_set",
+      "file": "furn_patio_set.glb",
+      "bytes": 535076,
+      "snapType": "facility",
+      "cells": [
+        2,
+        2
+      ],
+      "height": 2.4,
+      "bbox": {
+        "min": [
+          -1.1222,
+          -1.18,
+          0.0
+        ],
+        "max": [
+          1.1222,
+          1.18,
+          2.39
+        ],
+        "size": [
+          2.2445,
+          2.36,
+          2.39
+        ],
+        "vertexCount": 4432,
+        "polyCount": 4264
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "遮阳伞露天咖啡座",
+      "category": "防卫/生活",
+      "cost": {
+        "木材": 4,
+        "废金属": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/furn_patio_set.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/furn_patio_set.glb"
+    },
+    {
+      "id": "furn_garden_bench",
+      "file": "furn_garden_bench.glb",
+      "bytes": 136160,
+      "snapType": "facility",
+      "cells": [
+        2,
+        1
+      ],
+      "height": 0.9,
+      "bbox": {
+        "min": [
+          -0.79,
+          -0.3163,
+          0.0
+        ],
+        "max": [
+          0.79,
+          0.3163,
+          0.859
+        ],
+        "size": [
+          1.58,
+          0.6327,
+          0.859
+        ],
+        "vertexCount": 816,
+        "polyCount": 766
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "铸铁长条庭院公园椅",
+      "category": "防卫/生活",
+      "cost": {
+        "木材": 3,
+        "废金属": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/furn_garden_bench.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/furn_garden_bench.glb"
+    },
+    {
+      "id": "furn_crate",
+      "file": "furn_crate.glb",
+      "bytes": 145964,
+      "snapType": "facility",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.64,
+      "bbox": {
+        "min": [
+          -0.4443,
+          -0.38,
+          0.0
+        ],
+        "max": [
+          0.4443,
+          0.38,
+          0.64
+        ],
+        "size": [
+          0.8885,
+          0.76,
+          0.64
+        ],
+        "vertexCount": 640,
+        "polyCount": 630
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "加固物资储物箱",
+      "category": "防卫/生活",
+      "cost": {
+        "木材": 2,
+        "废金属": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/furn_crate.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/furn_crate.glb"
+    },
+    {
+      "id": "furn_campfire",
+      "file": "furn_campfire.glb",
+      "bytes": 192004,
+      "snapType": "facility",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 0.96,
+      "bbox": {
+        "min": [
+          -0.4935,
+          -0.4595,
+          0.0
+        ],
+        "max": [
+          0.4935,
+          0.4595,
+          0.9989
+        ],
+        "size": [
+          0.987,
+          0.919,
+          0.9989
+        ],
+        "vertexCount": 954,
+        "polyCount": 1024
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "户外篝火野炊吊锅",
+      "category": "防卫/生活",
+      "cost": {
+        "木材": 3,
+        "混凝土": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/furn_campfire.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/furn_campfire.glb"
+    },
+    {
+      "id": "furn_lamp",
+      "file": "furn_lamp.glb",
+      "bytes": 230948,
+      "snapType": "facility",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 2.18,
+      "bbox": {
+        "min": [
+          -0.256,
+          -0.3686,
+          0.0
+        ],
+        "max": [
+          0.256,
+          0.3686,
+          2.1517
+        ],
+        "size": [
+          0.5121,
+          0.7372,
+          2.1517
+        ],
+        "vertexCount": 1370,
+        "polyCount": 1322
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "工业探照路灯",
+      "category": "防卫/生活",
+      "cost": {
+        "废金属": 2,
+        "电子元件": 1
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/furn_lamp.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/furn_lamp.glb"
+    },
+    {
+      "id": "furn_streetlight_dual",
+      "file": "furn_streetlight_dual.glb",
+      "bytes": 255976,
+      "snapType": "facility",
+      "cells": [
+        1,
+        1
+      ],
+      "height": 2.62,
+      "bbox": {
+        "min": [
+          -0.5377,
+          -0.2754,
+          0.0
+        ],
+        "max": [
+          0.5377,
+          0.2754,
+          2.63
+        ],
+        "size": [
+          1.0754,
+          0.5508,
+          2.63
+        ],
+        "vertexCount": 2438,
+        "polyCount": 2420
+      },
+      "pivotZeroBottomVerified": true,
+      "label": "古典双头铸铁街灯",
+      "category": "防卫/生活",
+      "cost": {
+        "废金属": 3,
+        "电子元件": 2
+      },
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/Windfarbe/estate@main/assets/models/furn_streetlight_dual.glb",
+      "rawUrl": "https://raw.githubusercontent.com/Windfarbe/estate/main/assets/models/furn_streetlight_dual.glb"
+    }
+  ]
+}
